@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+.logo_image {
+    width: 149px;
+    height: 36.23px;
+}
+
+.menu {
+    margin-top: 58.62px;
+    margin-left: 157px;
+    margin-right: 150px;
+}
+
+.first_punkt_menu {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+    text-decoration: none;
+}
+
+.punkt_menu {
+    margin-left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.punkt_menu:hover {
+    color: #F53855;
+    transition: 200ms;
+}
+
+.signup {
+    margin-top: 58.62px;
+    margin-right: auto;
+}
+
+.signin {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.signin:hover {
+    color: #F53855;
+    transition: 200ms;
+}
+
+.signup_button {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    margin-left: 30px;
+    transition: 200ms;
+}
+
+.signup_button:hover {
+    background: #F53855;
+    border: none;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner_block {
+    margin-left: auto;
+}
+
+.banner_header {
+    margin-top: 116.15px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+    width: 555px;
+    height: 140px;
+}
+
+.banner_text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    width: 555px;
+    height: 60px;
+}
+
+.banner_button {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    padding-left: 77.5px;
+    padding-right: 77.5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.banner_image {
+    width: 611.24px;
+    height: 382.44px;
+    margin-left: 40.76px;
+    margin-top: 88.49px;
+    margin-right: auto;
+}
+
+.features {
+    display: flex;
+}
+
+.fblock {
+    margin-left: 169.48px; margin-right: auto;
+}
+
+.features_img {
+    width: 508.12px;
+    height: 414.71px;
+    margin-top: 95.83px;
+    margin-left: auto;
+}
+
+.features_header {
+    margin-top: 107.98px;
+    width: 383.41px;
+    height: 100px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+
+.features_text {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 427.88px;
+    height: 60px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.feature_ico {
+    width: 20px;
+    height: 20px;
+}
+
+.feature_text {
+    margin-left: 12.08px;
+    width: 179px;
+    height: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.plans_block_header {
+    margin-top: 80.27px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 383.41px;
+    height: 50px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.plans_block_text {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 555px;
+    height: 60px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.plans {
+    display: flex;
+    margin-top: 60px;
+}
+
+.plan {
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.plan_2 {
+    margin-left: 50px;
+}
+
+.box {
+    width: 144.9px;
+    height: 165.37px;
+    margin-top: 79.63px;
+    margin-left: 92.55px;
+    margin-right: 92.55px;
+}
+
+.plan_name {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.plan_feature {
+    display: flex;
+    margin-top: 10px;
+}
+
+.plan_feature_ico {
+    margin-left: 75.19px;
+}
+
+.plan_feature_text {
+    margin-left: 25.61px;
+    margin-right: auto;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.price {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 33px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+#plan_price_1 {
+    margin-top: 130px;
+}
+
+#plan_price_2 {
+    margin-top: 90px;
+}
+
+#plan_price_3 {
+    margin-top: 50px;
+}
+
+.plan_button {
+    margin-left: 76.06px;
+    margin-right: 76.06px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 62.94px;
+    padding-right: 62.94px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.plan_pro {
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    margin-left: 50px; margin-right: auto;
+}
+
+.plan_button_pro {
+    margin-left: 76.06px;
+    margin-right: 76.06px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 62.94px;
+    padding-right: 62.94px;
+    background: #F53838;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.map_block {
+    margin-top: 150px;
+}
+
+.map_header {
+    width: 383.41px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map_info {
+    width: 555px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map {
+    margin-top: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1225px) {
+    .menu {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .banner_image {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .banner_block {
+        margin: 0px;
+    }
+
+    .banner {
+        justify-content: center;
+    }
+
+    .banner_button {
+        padding: 14px 55px;
+    }
+
+    .features {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 509px;
+    }
+
+    .features_img {
+        margin: 0px;
+    }
+
+    .fblock {
+        margin: 0px;
+    }
+
+    .features_header {
+        margin-top: 80px;
+    }
+
+    .box {
+        margin-top: 8px;
+    }
+
+    .plan {
+        height: 663px;
+    }
+
+    .plan_2 {
+        margin-left: 20px;
+    }
+
+    .plan_pro {
+        height: 663px;
+        margin-left: 20px;
+    }
+
+    .map {
+        width: 960px;
+        height: 439px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    .signup_button {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .signin {
+        text-align: center;
+        vertical-align: middle;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F53855;
+        text-decoration: none;
+        padding: 13px 45px;
+        border: 1px solid #F53855;
+        border-radius: 50px;
+        transition: 200ms;
+    }
+
+    .signin:hover {
+        background: #F53855;
+        border: none;
+        color: #FFFFFF;
+        transition: 300ms;
+    }
+
+    .menu {
+        margin-left: 40px;
+        margin-left: 40px;
+    }
+
+    .plans {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 330px;
+    }
+
+    .plan {
+        margin-bottom: 20px;
+    }
+
+    .plan_2 {
+        margin-left: 0px;
+    }
+
+    .plan_pro {
+        margin-left: 0px;
+    }
+
+    .box {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .plan_name {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .price {
+        margin-bottom: 30px;
+    }
+
+    #plan_price_1 {
+        margin-top: 15px;
+    }
+
+    #plan_price_2 {
+        margin-top: 15px;
+    }
+
+    #plan_price_3 {
+        margin-top: 15px;
+    }
+
+    .plan {
+        height: 355px;
+    }
+
+    .plan_2 {
+        height: 400px
+    }
+
+    .plan_pro {
+        height: 439px;
+    }
+
+    .map_block {
+        margin-top: 75px;
+    }
+
+    .map {
+        width: 760px;
+        height: 239px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .menu {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .punkt_menu {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .signup {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .logo {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .menu {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 200px;
+    }
+
+    .banner_header {
+        font-size: 40px;
+        width: 390px;
+        margin-top: 40px;
+    }
+
+    .banner_text {
+        width: 390px;
+        margin-bottom: 25px;
+    }
+
+    .banner_button {
+        background: transparent;
+        padding: 0px;
+        color: #F53838;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+    }
+
+    .features_img {
+        width: 390px;
+        height: 280.71px;
+    }
+
+    .features_text {
+        width: 390px;
+    }
+
+    .feature {
+        width: 390px;
+    }
+
+    .fblock {
+        width: 390px;
+    }
+
+    .plans_block_text {
+        width: 390px;
+    }
+
+    .map_info {
+        width: 390px;
+    }
+
+    .map {
+        width: 390px;
+        height: 139px;
+    }
+
+    .features {
+        width: 390px;
+    }
+}
